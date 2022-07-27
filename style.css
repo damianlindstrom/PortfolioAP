@@ -1,4 +1,43 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+}
+body{
+    max-width: 100vw;
+}
+
+#profile-background img{
+    max-height: 70vh;
+    min-width: 100%;
+}
+
+div.mat-card{
+    border: rgb(50, 79, 173) 2px solid;
+    margin: 3px;
+    padding: 1em;
+}
+img.profile-image{
+    max-height: 10em;
+    border-radius: 50%;
+    display: flex;
+    z-index: 1;
+    margin-top: -110px;
+    border: lightyellow 2px solid;
+    padding-left: 0;
+}
+.btn-right{
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    list-style: none;
+}
+img.experience-img{
+    max-width: 50%;
+    margin: auto;
+    padding: 1em;
 }
